@@ -1,3 +1,5 @@
+# Modified to allow the user to input a stock ticker, app then plots the last few months of closing prices
+
 # Flask on Heroku
 
 
