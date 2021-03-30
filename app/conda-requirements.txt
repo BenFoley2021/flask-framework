@@ -5,4 +5,6 @@ flask
 jinja2
 pip
 simplejson
+json
 nomkl
+requests
