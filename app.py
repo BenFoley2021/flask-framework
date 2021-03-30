@@ -122,6 +122,6 @@ if __name__ == '__main__':
     #### setup vars, globals are bad and such, i know
 
     
-    app.run(debug=True)
+    app.run(debug=False)
 
 #             <fieldset disabled>
