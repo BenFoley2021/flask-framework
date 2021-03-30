@@ -4,10 +4,9 @@
 """
 
 
-from flask import Flask, render_template, request, g, current_app
+from flask import Flask, render_template, request
 from jinja2 import Template
 from bokeh.resources import CDN
-from bokeh.embed import components
 from bokeh.embed import json_item
 from bokeh.plotting import figure
 import json
@@ -52,7 +51,6 @@ def result():
     
     global model
     global dictWord2Vec
-    import json
     ticker = request.form.get("var_1", type=str)
 
     operation = request.form.get("operation")
